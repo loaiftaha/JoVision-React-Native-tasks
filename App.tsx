@@ -1,7 +1,8 @@
 
 import { NewAppScreen } from '@react-native/new-app-screen';
 import {  StyleSheet, useColorScheme, View } from 'react-native';
-import Task16 from './Tasks/Task16';
+//import Task16 from './Tasks/Task16';
+import Task17 from './Tasks/Task17';
 import {
   SafeAreaProvider,
   useSafeAreaInsets,
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <SafeAreaProvider>
-      <Task16></Task16>
+      <Task17></Task17>
     </SafeAreaProvider>
   );
 }
