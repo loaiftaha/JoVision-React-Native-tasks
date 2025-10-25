@@ -7,7 +7,7 @@ import { SafeAreaProvider} from 'react-native-safe-area-context';
 export default function Task21() {
 
     const [textOutput, setTextOutput] = useState('');
-    const [laimOutput, setlaimOutput]= useState('');
+   // const [laimOutput, setlaimOutput]= useState('');
 
 
 
