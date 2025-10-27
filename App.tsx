@@ -9,7 +9,7 @@ import {  StyleSheet, useColorScheme, View } from 'react-native';
 //import Task21 from './Tasks/Task21';
 // import Task22 from './Tasks/Task22';
 // import Task23 from './Tasks/Task23';
-import Task24 from './Tasks/Task24';
+import Task25 from './Tasks/Task25';
 import {
   SafeAreaProvider,
   useSafeAreaInsets,
@@ -27,7 +27,9 @@ function App() {
     //<SafeAreaProvider><Task21></Task21></SafeAreaProvider>
     // <SafeAreaProvider><Task22></Task22></SafeAreaProvider>
     // <SafeAreaProvider><Task23></Task23></SafeAreaProvider>
-    <SafeAreaProvider><Task24></Task24></SafeAreaProvider>
+    // <SafeAreaProvider><Task24></Task24></SafeAreaProvider>
+    <SafeAreaProvider><Task25></Task25></SafeAreaProvider>
+
 
   
   );
