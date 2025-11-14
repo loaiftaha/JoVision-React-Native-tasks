@@ -14,7 +14,7 @@ import {
     Task27_Irbid_Winter,
 } from '../Images';
 
-export default function Task28() {
+export default function Task29() {
     
     const images = [
         Task27_Irbid_Autumn,
