@@ -22,12 +22,15 @@ import {  StyleSheet, useColorScheme, View } from 'react-native';
 //  import Task35 from './Tasks/Task35';
 //  import Task36 from './Tasks/Task36';
 //  import Task37 from './Tasks/Task37';
- import Task38 from './Tasks/Task38';
+//  import Task38 from './Tasks/Task38';
+ import Task39 from './Tasks/Task39';
 
  import {
   SafeAreaProvider,
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
+import { Provider } from 'react-redux';
+import store from './Components/StoreRedux_Task39';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -55,7 +58,8 @@ function App() {
         // <SafeAreaProvider><Task35/></SafeAreaProvider>
         // <SafeAreaProvider><Task36/></SafeAreaProvider>
         // <SafeAreaProvider><Task37/></SafeAreaProvider>
-        <SafeAreaProvider><Task38/></SafeAreaProvider>
+        // <SafeAreaProvider><Task38/></SafeAreaProvider>
+        <SafeAreaProvider><Provider store={store}><Task39/></Provider></SafeAreaProvider>
 
 
   );
